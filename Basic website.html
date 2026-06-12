@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <style>
+        /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #f4fcff, #e8f9ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    color: #1f2937;
+}
+
+/* Navigation */
+div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 20px 40px;
+}
+
+div a {
+    text-decoration: none;
+    color: #0099cc;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+div a:hover {
+    color: #00c6ff;
+}
+
+/* Logo */
+header {
+    text-align: center;
+    padding: 40px 0 20px;
+    font-size: 3rem;
+    color: #00a8e8;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+main span {
+    background: white;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    box-shadow: 0 8px 25px rgba(0, 168, 232, 0.12);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.7);
+    color: #6b7280;
+    backdrop-filter: blur(10px);
+}
+    </style>
+</head>
+
+<body>
+    <div>
+        <a href="bookmark.html">Bookmark</a>
+        <a href="/notification">Notification</a>
+        <a href="/aboutus">About Us</a>
+    </div>
+    <Header>
+        <b>Notie</b>
+    </Header>
+    <Main>
+        <span>
+            Working for students to help them in there daily school assingments.
+        </span>
+    </Main>
+    <footer>
+        All rights reserved
+    </footer>
+</body>
+
+</html>
